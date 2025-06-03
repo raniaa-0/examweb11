@@ -441,7 +441,7 @@ body {
   }
 }
 .section8 {
-  background: linear-gradient(to bottom, #e2ab64, #d59e53);
+  background: linear-gradient(to bottom, #DCB780,#DEAE68);
   padding: 40px;
   display: flex;
   justify-content: space-between;
@@ -449,6 +449,60 @@ body {
   font-family: 'Segoe UI', sans-serif;
   color: white;
   border-top: 2px solid white;
+}
+.product-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  background: white;
+  max-width: 300px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-card h2 {
+  font-size: 18px;
+  margin: 15px 0 10px;
+}
+
+.rating {
+  color: #c8a354;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.rating span {
+  color: #ccc;
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.product-card p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.colors span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+
+.order-btn {
+  background: #d3a968;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 .section8 div {
@@ -482,6 +536,20 @@ body {
     display: flex;
   
 }
+
+.section9{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    background-color: #FFE0B3;
+    color: white;
+}
+.parti{
+   
+        display: flex;
+    flex-direction: row;
+    gap: 29px;
+}
 /* Responsive */
 @media (max-width: 768px) {
   .section8 {
@@ -497,6 +565,19 @@ body {
     display: inline-block;
     margin: 0 8px;
   }
+  .parti{
+      display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+
+  }
+  .section2{
+    flex-wrap: wrap;
+  }
+}
+.prts{
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 600px) {
