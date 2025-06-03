@@ -351,6 +351,7 @@ body {
     font-size: 18px;
     color: #a9804d;
     font-weight: bold;
+        justify-content: center;
 }
 
 .sections div:first-child {
@@ -360,7 +361,8 @@ body {
 
 .imgs {
   display: flex;
-  gap: 30px;
+  gap: 70px;
+      justify-content: center;
 }
 
 .imgs img {
@@ -543,12 +545,14 @@ body {
     gap: 20%;
     background-color: #FFE0B3;
     color: white;
+        padding: 3%;
 }
 .parti{
    
-        display: flex;
+    display: flex;
     flex-direction: row;
-    gap: 29px;
+    gap: 70px;
+        justify-content: center;
 }
 /* Responsive */
 @media (max-width: 768px) {
@@ -574,10 +578,19 @@ body {
   .section2{
     flex-wrap: wrap;
   }
+  
+.section9{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+        padding: 3%;
+}
 }
 .prts{
     display: flex;
     justify-content: center;
+    margin-bottom: 9%;
+    margin-top: 6%;
 }
 
 @media (max-width: 600px) {
