@@ -171,6 +171,97 @@ body {
 .notify-btn:hover {
     opacity: 0.9;
 }
+
+
+
+.section3 {
+    padding: 50px;
+    font-family: 'Georgia', serif;
+    background-color: #fff7f5;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 30px;
+}
+
+.section-left h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.section-left p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+    max-width: 250px;
+}
+
+.section-icon img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.large-img {
+    position: relative;
+    grid-row: span 2;
+}
+
+.large-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.caption .type {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.caption .price {
+    float: right;
+    font-weight: bold;
+}
+
+.caption .desc {
+    font-size: 14px;
+}
+
+.caption .arrow {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.grid-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* 🌐 RESPONSIVE */
 @media (max-width: 900px) {
   .section1 {
